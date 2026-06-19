@@ -2,7 +2,7 @@
 
 ## Task Tracker
 
-| Assignee  | Tasks                                                                                               |
-| --------- | --------------------------------------------------------------------------------------------------- |
-| Samriddhi | 1. Proxy server implementation<br>2. Test case validation<br>3. Implementation of server test cases |
-| Ranjit    | 1. Verification of proxy server<br>2. Test case validation                                          |
+| Assignee  | Deliverables                                     | Timeline |
+| --------- | ------------------------------------------------ | -------- |
+| Samriddhi | Proxy Server, Test Validation, Server Test Cases | 2-3 Days |
+| Ranjit    | Proxy Server Verification, Test Validation       | 2-3 Days   |
