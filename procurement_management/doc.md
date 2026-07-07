@@ -9,11 +9,17 @@
 - There is no centralized system to track procurement activities from start to finish.
 - Manual data transfer between systems causes delays and reduces operational efficiency.
 - Tracking the status of procurement requests requires significant manual effort and lacks real-time visibility.
+### Current Manual Procurement Process
+```mermaid
+flowchart TD
+    A["Requirement"] --> B["Approval"]
+    B --> C["OTP\nManagement"]
+    C --> D["Pickup\n& QC"]
+    D --> E["Manual\nSAP Entries"]
+```
 
-## Challenges
+> **Note:** Every step in the above workflow is performed manually, requiring human intervention. This results in delays, repetitive work, and a higher chance of errors.
 
-
-1. Procurement Challenges
-2. Procurement Challenges
-3. Procurement Challenges
-4. Procurement Challenges
+# Queustion
+1. how do we get data
+2. How do we validate OTP
