@@ -4,11 +4,6 @@
 
 - PR creation — still manually entered, but through a proper form instead of a spreadsheet. No external integration needed -- u two thins need .
 
-- Price validation — the person still checks the marketplace price themselves (opens Amazon/Flipkart, looks at it) and enters it into the system. The system's job is - just to compare entered price vs approved price and block/alert — not to auto-fetch prices. No scraping/API needed for v1.
-
-- Approval — human still approves, just via the app instead of a printed/signed sheet.
-- OTP — human still gets OTP over WhatsApp, just types it into the system to lock the order — no WhatsApp API needed.
-- Order tracking, delivery, pickup — status still updated manually by whoever's doing it (ops/warehouse), just through the app instead of a shared sheet.
 - Bank reconciliation — this one likely does need a file upload (bank statement export) since matching hundreds of transactions by hand is exactly the pain point - - - being solved. But it can start as "upload CSV, system matches" rather than a live bank API.
 - SAP PO/GRPO — this is the one place true automation happens: instead of a person manually typing PO/GRPO entries into SAP, the system pushes it automatically once - QC passes. This needs the SAP Service Layer/API — the one integration that's non-negotiable for the "automation" promise to hold.
 
@@ -62,20 +57,22 @@ upload or have form to raise pr and have schema to validate and give them a PTN 
 #### Module 2 – Price Validation
 Objective
 Ensure procurement occurs only at approved pricing.
-##### doute after create pr then we are going to show then ```Enter markte place target price and current market place price 
+> Doubt: After creating the PR, are we going to show them:
+`Enter marketplace price, target price, and current marketplace price.`
+
 price mismatch -> reject notify BO 
 price match -> approval
 
 #### Module 3 – Approval Workflow
 Objective
 Automate procurement approvals.
-generate approcevel sheet and then send whats app otp and then verufy and then 
+generate approvel sheet and then send whatsapp otp and then verify and then 
 Approval Actions
         ◦ Review
         ◦ Approve
         ◦ Reject
         ◦ Hold
-#### Doute on the basis of what we are going to perforem this action
+> Doubt : on the basis of what we are going to perform this action
 
 #### Module 4 – Order Management System
 -> not clered how we are going to get data
