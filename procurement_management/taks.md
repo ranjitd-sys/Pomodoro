@@ -83,7 +83,7 @@ Verified the value matches exactly the "Web client 1" OAuth Client ID registered
 
 ---
 
-## Issue 3 (in progress): `Unauthorized Google account: samruddhik@deepecom.com`
+## Issue 3 : `Unauthorized Google account: samruddhik@deepecom.com`
 
 **Symptom**
 
